@@ -12,9 +12,21 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
+    <!-- google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- font awesome script -->
+    <script
+      src="https://kit.fontawesome.com/1e3eb9357d.js"
+      crossorigin="anonymous"
+    ></script>
     <!-- Custom Css stylesheet -->
     <link rel="stylesheet" href="./css/style.css" />
-    <!-- font awesome script -->
   </head>
   <body>
     <!-- Header section start -->
@@ -64,9 +76,13 @@
                 alt="..."
               />
               <div class="carousel-caption d-md-block">
-                <h5>First slide label</h5>
+                <h5 class="fs-3 fw-bold">
+                  The perfect venue for your <br />
+                  next event
+                </h5>
                 <p>
-                  Some representative placeholder content for the first slide.
+                  Amet minim mollit non deserunt ullamco est sit aliqua <br />
+                  dolor do amet sint. Velit officia consequat duis enim velit
                 </p>
                 <button
                   class="btn bg-white text-primary px-3 text-uppercase fw-bold fs-4"
@@ -82,9 +98,13 @@
                 alt="..."
               />
               <div class="carousel-caption d-md-block">
-                <h5>First slide label</h5>
+                <h5 class="fs-3 fw-bold">
+                  The perfect venue for your <br />
+                  next event
+                </h5>
                 <p>
-                  Some representative placeholder content for the first slide.
+                  Amet minim mollit non deserunt ullamco est sit aliqua <br />
+                  dolor do amet sint. Velit officia consequat duis enim velit
                 </p>
                 <button
                   class="btn bg-white text-primary px-3 text-uppercase fw-bold fs-4"
@@ -100,9 +120,13 @@
                 alt="..."
               />
               <div class="carousel-caption d-md-block">
-                <h5>First slide label</h5>
+                <h5 class="fs-3 fw-bold">
+                  The perfect venue for your <br />
+                  next event
+                </h5>
                 <p>
-                  Some representative placeholder content for the first slide.
+                  Amet minim mollit non deserunt ullamco est sit aliqua <br />
+                  dolor do amet sint. Velit officia consequat duis enim velit
                 </p>
                 <button
                   class="btn bg-white text-primary px-3 text-uppercase fw-bold fs-4"
@@ -136,10 +160,30 @@
 
     <!-- Header section end -->
     <!-- Main section start -->
-    <main>
+    <main class="position-relative">
+      <!-- toast section  -->
+      <div
+        class="toast show align-items-center position-absolute top-0 end-0"
+        role="alert"
+        aria-live="assertive"
+        aria-atomic="true"
+      >
+        <div class="d-flex">
+          <div class="toast-body fs-6">
+            <i class="fas fa-gift text-primary"></i> 20% off on next booking
+          </div>
+          <button
+            type="button"
+            class="btn-close me-2 m-auto"
+            data-bs-dismiss="toast"
+            aria-label="Close"
+          ></button>
+        </div>
+      </div>
       <!-- card section start -->
-      <section class="container my-5 py-5">
-        <div class="row row-cols-1 row-cols-md-4 g-4">
+      <section class="container mb-5">
+        <h2 class="text-center my-5 fw-bold">Our Package</h2>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
           <div class="col">
             <div class="card h-100 single_card">
               <div class="card-body">
@@ -288,6 +332,7 @@
       </section>
       <!-- qeustion section -->
       <section class="container mb-5">
+        <h2 class="text-center my-5 fw-bold">Frequently Asked Questions</h2>
         <div class="row">
           <div class="col-lg-6">
             <div class="accordion" id="accordionPanelsStayOpenExample">
@@ -385,6 +430,131 @@
               src="./media/images/ask_question.jpg"
               alt=""
             />
+          </div>
+        </div>
+      </section>
+      <!-- extra bonas part  -->
+      <section class="container my-5">
+        <h2 class="fs-2 fw-bold mb-3 text-uppercase text-center">FACILITIES</h2>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+          <div class="col">
+            <div class="card h-100">
+              <img
+                src="./media/images/f_01.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body bg-dark p-2 text-white bg-opacity-75">
+                <h5 class="card-title text-uppercase fs-2 fw-bold">
+                  Ballrooms
+                </h5>
+                <p class="card-text">
+                  The new 54,000 square foot Stars at Night Ballroom draws
+                  design inspiration from the beautiful Texas night sky as the
+                  sun sets gently over the horizon and the stars begin to give
+                  their first light in the evening.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img
+                src="./media/images/f_02.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body bg-dark p-2 text-white bg-opacity-75">
+                <h5 class="card-title text-uppercase fs-2 fw-bold">
+                  Exhibit halls
+                </h5>
+                <p class="card-text">
+                  The Henry B. González Convention Center has five exhibit halls
+                  with approximately 514,000 sq ft of contiguous space and
+                  35-foot ceilings. Together, the Exhibit Halls accommodate more
+                  than 2,900 standard exhibit booths.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img
+                src="./media/images/f_03.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body bg-dark p-2 text-white bg-opacity-75">
+                <h5 class="card-title text-uppercase fs-2 fw-bold">
+                  Meeting spaces
+                </h5>
+                <p class="card-text">
+                  Meeting space can be found on all four levels of the
+                  Convention Center. Our largest meeting room is 10,962 sq ft
+                  and the unique Cantilever Room features a variety of
+                  presentation methods in a space that is cantilevered over two
+                  lanes of traffic into Market Street.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img
+                src="./media/images/f_04.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body bg-dark p-2 text-white bg-opacity-75">
+                <h5 class="card-title text-uppercase fs-2 fw-bold">
+                  centilever room
+                </h5>
+                <p class="card-text">
+                  The Meeting Room of the Future, the Cantilever Room also known
+                  as meeting room 220 provides a dramatic new experience in the
+                  convention and meetings industry unique to San Antonio.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img
+                src="./media/images/f_05.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body bg-dark p-2 text-white bg-opacity-75">
+                <h5 class="card-title text-uppercase fs-2 fw-bold">
+                  lila theater
+                </h5>
+                <p class="card-text">
+                  The Lila Cockrell Theater is a Ticketmaster venue. The Theater
+                  Box Office is open on day of event only, however, tickets may
+                  be purchased at the Alamodome Box Office, any Ticketmaster
+                  outlet, or online .
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img
+                src="./media/images/f_06.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body bg-dark p-2 text-white bg-opacity-75">
+                <h5 class="card-title text-uppercase fs-2 fw-bold">
+                  the ldr & grotto
+                </h5>
+                <p class="card-text">
+                  The beautiful Henry B. González Convention Center actually has
+                  "A River that Runs through It." This section of the charming
+                  San Antonio River Walk is aptly named, "The Grotto."
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
